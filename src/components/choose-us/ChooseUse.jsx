@@ -24,8 +24,8 @@ const ChooseUse = () => {
               </p>
             </div>
 
-            <div className='features'>
-              <div className='feature1'>
+            <div className='features my-4'>
+              <div className='feature1 d-flex align-items-center gap-5'>
                 <div className='single__feature'>
                   <span>
                     <i className='ri-truck-line'></i>
@@ -33,6 +33,35 @@ const ChooseUse = () => {
 
                   <h6>Free Home Delivery</h6>
                   <p>Quick, reliable, doorstep convenience awaits.</p>
+                </div>
+
+                <div className='single__feature'>
+                  <span className='feature__icon-two'>
+                    <i class='ri-money-dollar-circle-line'></i>
+                  </span>
+
+                  <h6>Return & Refund</h6>
+                  <p>Trust, responsibility, values, success.</p>
+                </div>
+              </div>
+
+              <div className='feature1 mt-3 d-flex align-items-center gap-5'>
+                <div className='single__feature'>
+                  <span className='feature__icon-3'>
+                    <i class='ri-secure-payment-line'></i>
+                  </span>
+
+                  <h6>Secure Payment</h6>
+                  <p>Fast & secure! It has never been so close. yep</p>
+                </div>
+
+                <div className='single__feature'>
+                  <span className='feature__icon-4'>
+                    <i class='ri-24-hours-line'></i>
+                  </span>
+
+                  <h6>24/7 Hours Support</h6>
+                  <p>Trust, responsibility, values, success.</p>
                 </div>
               </div>
             </div>

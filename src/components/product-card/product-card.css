@@ -4,6 +4,7 @@
   cursor: pointer;
   box-shadow: 5px 5px 10px -5px #f5b70a;
   transition: all 0.5s;
+  animation: animate 0.675s ease-in;
 }
 
 .single__product:hover {
@@ -47,4 +48,14 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
