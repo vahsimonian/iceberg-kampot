@@ -30,12 +30,12 @@ const Download = () => {
               <div className='app__btns d-flex align-items-center gap-5 mt-4'>
                 <button className='btn__apple d-flex align-items-center gap-3'>
                   <i className='ri-apple-line'></i>
-                  <a href='#'>Apple Store</a>
+                  Apple Store
                 </button>
 
                 <button className='btn__google d-flex align-items-center gap-3'>
                   <i className='ri-google-play-line'></i>
-                  <a href='#'>Google Play</a>
+                  Google Play
                 </button>
               </div>
             </div>
