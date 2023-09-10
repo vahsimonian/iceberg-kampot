@@ -20,7 +20,7 @@ const Testimonials = () => {
     <section>
       <Container>
         <Row>
-          <Col lg='8'>
+          <Col lg='8' sm='12' md='12' className='m-auto'>
             <div className='slider__wrapper d-flex gap-5 align-items-center'>
               <div className='slider__content w-50'>
                 <h2 className='mb-4'>What our customers are saying</h2>

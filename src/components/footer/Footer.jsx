@@ -86,20 +86,20 @@ const Footer = () => {
               </ListGroup>
             </Col>
 
-            <Col lg='2' md='4' sm='6'>
+            <Col lg='4' md='4' sm='6'>
               <h5 className='footer__link-title'>Contact</h5>
 
               <ListGroup>
                 <ListGroupItem className='link__item d-flex align-items-center gap-3'>
-                  <i class='ri-map-pin-line'></i>Sylhet, Bangladesh
+                  <i className='ri-map-pin-line'></i>Sylhet, Bangladesh
                 </ListGroupItem>
 
                 <ListGroupItem className='link__item d-flex align-items-center gap-3'>
-                  <i class='ri-mail-line'></i>example@gmail.com
+                  <i className='ri-mail-line'></i>example@gmail.com
                 </ListGroupItem>
 
                 <ListGroupItem className='link__item d-flex align-items-center gap-3'>
-                  <i class='ri-phone-line'></i>+888-888-88-88
+                  <i className='ri-phone-line'></i>+888-888-88-88
                 </ListGroupItem>
               </ListGroup>
             </Col>
